@@ -1,0 +1,26 @@
+﻿using Scalar.AspNetCore;
+
+namespace API.Startup;
+
+public static class CorsConfig
+{
+    private const string AllowAllPolicy = "AllowAll";
+    public static void AddCorsServices(this IServiceCollection services)
+    {
+        // This is only for local testing, do not use such a permisive policy in  server for dev or production
+        services.AddCors(options =>
+        {
+            options.AddPolicy(AllowAllPolicy, policy =>
+            {
+                policy.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            });
+        });
+    }
+
+    public static void ApplyCorsConfig(this WebApplication app)
+    {
+        app.UseCors(AllowAllPolicy);
+    }
+}

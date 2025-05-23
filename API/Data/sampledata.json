@@ -388,5 +388,18 @@
     "courseImage": "https://www.iamtimcorey.com/assets/images/courses/sf-boo-01_title.png",
     "priceInUSD": 97,
     "coursePreviewLink": "https://courses.iamtimcorey.com/courses/bootstrap-5-from-start-to-finish/lectures/46196058"
+  },
+  {
+    "id": 31,
+    "isPreorder": false,
+    "courseUrl": "https://www.iamtimcorey.com/courses/upgrading-to-dotnet9",
+    "courseType": "training",
+    "courseName": "Upgrading to .NET 9 From Start to Finish",
+    "courseLessonCount": 35,
+    "courseLengthInHours": 5,
+    "shortDescription": "Learn how to upgrade any .NET Framework or .NET app to .NET 9 and beyond.\n",
+    "courseImage": "https://www.iamtimcorey.com/assets/images/courses/tr-upg-01_title.png",
+    "priceInUSD": 97,
+    "coursePreviewLink": ""
   }
 ]

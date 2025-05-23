@@ -2,7 +2,7 @@ using API.Endpoints;
 using API.Startup;
 
 ///<summary>
-///
+///https://www.youtube.com/playlist?list=PLLWMQd6PeGY1TU4qj0UW9iS28j5O-Iwa4
 ///</summary>
 
 
@@ -16,6 +16,7 @@ app.UseOpenApi();
 
 app.UseHttpsRedirection();
 
+app.ApplyCorsConfig();
 app.MapRootEndPoints();
 app.MapCourseEndpoints();
 
