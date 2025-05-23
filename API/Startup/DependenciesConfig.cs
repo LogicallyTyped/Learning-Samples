@@ -8,6 +8,7 @@ public static class DependenciesConfig
     {
         builder.Services.AddOpenApiServices();
         builder.Services.AddCorsServices();
+        builder.Services.AddAllHealthChecks();
 
         // Load a list that will not going to change and will allow methods to work on that list and.
         builder.Services.AddTransient<CourseData>();
