@@ -10,14 +10,15 @@ namespace ExceptionsLibrary
 
             Console.WriteLine("Open DataBase Connection");
 
+            // this is where we handle the exception, so we can log it or take other actions.
             try
             {
                 output = ParentMethod(position);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 // Log the exception here, if needed
-                throw;
+                throw new ArgumentException("I have a boo boo",ex);  // this allows you to keep the traceback of the original exception
             }
             finally
             {

@@ -9,6 +9,7 @@ namespace ExceptionsDemo
         {
             DemoCode demo = new DemoCode();
 
+            // global exception handler to tell the user about the exception.
             try
             {
                 int result = demo.GrandparentMethod(4); // This will throw an exception if the index is out of bounds with a 4
@@ -18,6 +19,14 @@ namespace ExceptionsDemo
             {
                 Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.StackTrace);
+
+                // Traverse through the inner exceptions to get the full stack trace
+                var innerException = ex.InnerException;
+                while (innerException != null)
+                {
+                    Console.WriteLine(innerException.StackTrace);
+                    innerException = innerException.InnerException; // Traverse through the inner exceptions
+                }
             }
 
             Console.ReadLine();
