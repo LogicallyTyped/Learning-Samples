@@ -5,6 +5,7 @@ namespace API.Startup;
 public static class CorsConfig
 {
     private const string AllowAllPolicy = "AllowAll";
+
     public static void AddCorsServices(this IServiceCollection services)
     {
         // This is only for local testing, do not use such a permisive policy in  server for dev or production
