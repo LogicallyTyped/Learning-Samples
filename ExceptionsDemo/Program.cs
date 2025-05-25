@@ -15,6 +15,11 @@ namespace ExceptionsDemo
                 int result = demo.GrandparentMethod(4); // This will throw an exception if the index is out of bounds with a 4
                 Console.WriteLine($"The Value at the given position is: {result}");
             }
+            catch (ArgumentException ex)
+            {
+                // Handle the specific ArgumentException
+                Console.WriteLine("You gave us Bad information bad user");
+            }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
