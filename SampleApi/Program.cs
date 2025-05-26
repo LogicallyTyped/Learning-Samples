@@ -1,3 +1,4 @@
+using Api.Endpoints;
 using SampleApi.Endpoints;
 using SampleApi.Startup;
 
@@ -12,5 +13,7 @@ app.UseOpenApi();
 app.UseHttpsRedirection();
 
 app.MapRootEndpoints();
+app.MapCourseEndpoints();
+app.MapErrorEndpoints();
 
 app.Run();
