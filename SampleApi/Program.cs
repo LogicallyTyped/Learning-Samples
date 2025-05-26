@@ -1,4 +1,5 @@
 using Api.Endpoints;
+using Api.Startup;
 using SampleApi.Endpoints;
 using SampleApi.Startup;
 
@@ -11,6 +12,8 @@ var app = builder.Build();
 app.UseOpenApi();
 
 app.UseHttpsRedirection();
+
+app.ApplyCorsConfig();
 
 app.MapRootEndpoints();
 app.MapCourseEndpoints();

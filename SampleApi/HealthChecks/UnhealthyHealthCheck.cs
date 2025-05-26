@@ -2,7 +2,7 @@
 
 namespace Api.HealthChecks;
 
-public class UnhealthyHealthCheck
+public class UnhealthyHealthCheck : IHealthCheck
 {
     public Task<HealthCheckResult> CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken = default)
     {

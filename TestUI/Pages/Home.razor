@@ -1,7 +1,27 @@
 ﻿@page "/"
+@using TestUI.Models
+@inject HttpClient http
 
-<PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<PageTitle>Courses</PageTitle>
 
-Welcome to your new app.
+<h1>All Courses</h1>
+
+@if (courses is not null)
+{
+    @foreach (var c in courses)
+    {
+        <a href="@c.CourseUrl">
+            <img width="300" src="@c.CourseImage" />
+        </a>
+    }
+}
+
+@code {
+    private List<CourseModel>? courses;
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = await http.GetFromJsonAsync<List<CourseModel>>("https://localhost:7246/courses");
+    }
+}
