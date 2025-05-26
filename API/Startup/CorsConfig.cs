@@ -1,6 +1,4 @@
-﻿using Scalar.AspNetCore;
-
-namespace API.Startup;
+﻿namespace API.Startup;
 
 public static class CorsConfig
 {

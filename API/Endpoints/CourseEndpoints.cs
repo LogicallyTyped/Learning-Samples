@@ -25,8 +25,8 @@ public static class CourseEndpoints
 
         if (string.IsNullOrWhiteSpace(search) == false)
         {
-            output.RemoveAll(x => !x.CourseName.Contains(search,StringComparison.OrdinalIgnoreCase) &&
-                !x.ShortDescription.Contains(search,StringComparison.OrdinalIgnoreCase));
+            output.RemoveAll(x => !x.CourseName.Contains(search, StringComparison.OrdinalIgnoreCase) &&
+                !x.ShortDescription.Contains(search, StringComparison.OrdinalIgnoreCase));
         }
 
         if (delay is not null)
