@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleAPI", "SampleAPI", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "SampleApi\Api.csproj", "{8749DCB6-EC22-409A-BC05-54FF8E803AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteUI", "TesteUI\TesteUI.csproj", "{5EF7CCEE-1F5E-43C9-B2EC-34F80EC75289}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUI", "TesteUI\TestUI.csproj", "{5EF7CCEE-1F5E-43C9-B2EC-34F80EC75289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

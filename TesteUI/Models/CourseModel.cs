@@ -1,4 +1,4 @@
-﻿namespace TesteUI.Models;
+﻿namespace TestUI.Models;
 
 public class CourseModel
 {
