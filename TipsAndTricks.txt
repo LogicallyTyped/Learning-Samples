@@ -1,6 +1,9 @@
 
 /// https://www.youtube.com/playlist?list=PLLWMQd6PeGY1TU4qj0UW9iS28j5O-Iwa4
 
+Target Long-Term Support for produdction and server workloads (.NET 8) and use the Class Library (.NET Core).
+
+
 Tricks for Visual Studio Code:
 ALT+ arrow keys to move lines up and down.
 CTRL+SHIFT+SPACE to bring up parameter info.
