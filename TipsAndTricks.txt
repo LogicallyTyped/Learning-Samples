@@ -13,3 +13,4 @@ Only change on thing at a time, so that you can easily debug issues.
 Do not use abrevations, use full words to make it easier to read.
 A method should only do one thing, if it does more than one thing, then it should be split into multiple methods.
 Class libraries should be used to group related methods together, so that they can be reused in other projects.
+Identify repeated logic/code and extract it into a method, so that it can be reused.
