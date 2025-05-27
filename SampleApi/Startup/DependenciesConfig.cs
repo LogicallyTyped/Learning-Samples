@@ -1,5 +1,6 @@
 ﻿using Api.Data;
 using Api.Startup;
+using DataAccess.DbAccess;
 
 namespace SampleApi.Startup;
 
@@ -12,5 +13,9 @@ public static class DependenciesConfig
         builder.Services.AddAllHealthChecks();
 
         builder.Services.AddTransient<CourseData>();
+
+        builder.Services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
+        builder.Services.AddSingleton<IUserData, UserData>();
+
     }
 }

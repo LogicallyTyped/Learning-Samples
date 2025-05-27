@@ -1,0 +1,6 @@
+﻿/MyApp
+  /Contracts      ← your interfaces (IFooService, IBarRepository…)
+  /Services       ← concrete implementations (FooService…)
+  /Endpoints      ← MapXXX extension classes
+  /Configuration  ← DI-registration extensions, Swagger, CORS, etc.
+  Program.cs      ← bootstraps WebApplication, calls MapFooEndpoints()

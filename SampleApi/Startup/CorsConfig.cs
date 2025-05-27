@@ -1,4 +1,4 @@
-﻿namespace Api.Startup;
+﻿namespace SampleApi.Startup;
 
 public static class CorsConfig
 {
