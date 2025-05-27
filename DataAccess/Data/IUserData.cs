@@ -7,4 +7,5 @@ public interface IUserData
     Task<IEnumerable<UserModel>> GetUsers();
     Task InsertUser(UserModel user);
     Task UpdateUser(UserModel user);
+    Task DeleteUser(int id);
 }

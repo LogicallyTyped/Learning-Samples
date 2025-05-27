@@ -26,4 +26,7 @@ public class UserData : IUserData
     public Task UpdateUser(UserModel user) =>
         _db.SaveData("dbo.spUser_Update", new { user.Id, user.FirstName, user.LastName });
 
+    public Task DeleteUser(int id) =>
+        _db.SaveData("dbo.spUser_Delete", new { Id = id });
+
 }
