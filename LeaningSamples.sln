@@ -15,7 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsLibrary", "Except
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{9B55F421-DDFE-421E-AEDD-4EE8C6CB0FF7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleAPI", "SampleAPI", "{23A16BCA-3547-4522-9F36-B3E7CE74947A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateApi", "TemplateApi", "{23A16BCA-3547-4522-9F36-B3E7CE74947A}"
+	ProjectSection(SolutionItems) = preProject
+		FolderStructure.txt = FolderStructure.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "SampleApi\Api.csproj", "{8749DCB6-EC22-409A-BC05-54FF8E803AE0}"
 EndProject
