@@ -1,4 +1,4 @@
-using Api.Endpoints;
+using Api.Startup;
 using SampleApi.Startup;
 
 var builder = WebApplication.CreateBuilder(args);

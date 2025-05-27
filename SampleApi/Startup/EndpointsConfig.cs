@@ -1,7 +1,7 @@
-﻿using Api.Startup;
+﻿using Api.Endpoints;
 using SampleApi.Endpoints;
 
-namespace Api.Endpoints;
+namespace Api.Startup;
 
 public static class EndpointsConfig
 {
@@ -11,5 +11,6 @@ public static class EndpointsConfig
         app.MapRootEndpoints();
         app.MapCourseEndpoints();
         app.MapErrorEndpoints();
+        app.MapUserEndpoints();
     }
 }
