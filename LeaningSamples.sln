@@ -33,8 +33,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Example1", "DependencyInjection.Example1\DependencyInjection.Example1.csproj", "{10A176BE-D1A9-4C29-8676-E98016D953D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReactNetDemos", "ReactNetDemos", "{BC7848E3-3253-49D6-B79D-81848ED11F8F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
