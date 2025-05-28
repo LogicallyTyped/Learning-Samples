@@ -17,6 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\Cons
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateApi", "TemplateApi", "{23A16BCA-3547-4522-9F36-B3E7CE74947A}"
 	ProjectSection(SolutionItems) = preProject
+		API.txt = API.txt
 		FolderStructure.txt = FolderStructure.txt
 	EndProjectSection
 EndProject
@@ -27,6 +28,12 @@ EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDB", "UserDB\UserDB.sqlproj", "{C53EBF88-F960-4826-ABB4-AE0278DD115F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D42F2A6E-C165-44F7-B3EF-97CE1E13615E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{090E1DBC-6F39-43D5-9BE7-48206699C9B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Example1", "DependencyInjection.Example1\DependencyInjection.Example1.csproj", "{10A176BE-D1A9-4C29-8676-E98016D953D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReactNetDemos", "ReactNetDemos", "{BC7848E3-3253-49D6-B79D-81848ED11F8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +67,10 @@ Global
 		{D42F2A6E-C165-44F7-B3EF-97CE1E13615E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D42F2A6E-C165-44F7-B3EF-97CE1E13615E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D42F2A6E-C165-44F7-B3EF-97CE1E13615E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A176BE-D1A9-4C29-8676-E98016D953D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A176BE-D1A9-4C29-8676-E98016D953D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A176BE-D1A9-4C29-8676-E98016D953D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A176BE-D1A9-4C29-8676-E98016D953D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +82,7 @@ Global
 		{894C8A53-DDB5-49C9-B429-0CDB1EF7F3A8} = {23A16BCA-3547-4522-9F36-B3E7CE74947A}
 		{C53EBF88-F960-4826-ABB4-AE0278DD115F} = {23A16BCA-3547-4522-9F36-B3E7CE74947A}
 		{D42F2A6E-C165-44F7-B3EF-97CE1E13615E} = {23A16BCA-3547-4522-9F36-B3E7CE74947A}
+		{10A176BE-D1A9-4C29-8676-E98016D953D0} = {090E1DBC-6F39-43D5-9BE7-48206699C9B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78217420-7464-4C3A-A40D-6A5B311FC5F5}
