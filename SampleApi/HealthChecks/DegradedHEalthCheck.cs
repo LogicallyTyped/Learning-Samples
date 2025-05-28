@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Api.HealthChecks;
+namespace Template.API.HealthChecks;
 
 public class DegradedHealthCheck : IHealthCheck
 {

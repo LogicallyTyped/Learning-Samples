@@ -1,4 +1,4 @@
-﻿namespace Api.Data.Model;
+﻿namespace Template.API.Data.Model;
 
 public class CourseModel
 {

@@ -1,8 +1,7 @@
-﻿using Api.Data;
-using Api.Startup;
-using DataAccess.DbAccess;
+﻿using DataAccess.DbAccess;
+using Template.API.Data;
 
-namespace SampleApi.Startup;
+namespace Template.API.Startup;
 
 public static class DependenciesConfig
 {

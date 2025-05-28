@@ -1,4 +1,4 @@
-﻿namespace SampleApi.Startup;
+﻿namespace Template.API.Startup;
 
 public static class OpenApiConfig
 {

@@ -1,5 +1,4 @@
-using Api.Startup;
-using SampleApi.Startup;
+using Template.API.Startup;
 
 var builder = WebApplication.CreateBuilder(args);
 

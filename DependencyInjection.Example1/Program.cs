@@ -1,4 +1,4 @@
-﻿using DependencyInjection.Example1;
+﻿using DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
 
-namespace DependencyInjection.Example1;
+namespace DependencyInjection;
 public class Worker : BackgroundService
 {
     private readonly MessageWriter _messageWriter = new();

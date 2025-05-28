@@ -1,7 +1,6 @@
-﻿using Api.Endpoints;
-using SampleApi.Endpoints;
+﻿using Template.API.Endpoints;
 
-namespace Api.Startup;
+namespace Template.API.Startup;
 
 public static class EndpointsConfig
 {

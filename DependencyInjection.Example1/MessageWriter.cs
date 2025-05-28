@@ -1,4 +1,4 @@
-﻿namespace DependencyInjection.Example1;
+﻿namespace DependencyInjection;
 public class MessageWriter : IMessageWriter
 {
     public void Write(string message)

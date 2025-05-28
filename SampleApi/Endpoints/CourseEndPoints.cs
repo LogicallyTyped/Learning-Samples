@@ -1,6 +1,6 @@
-﻿using Api.Data;
+﻿using Template.API.Data;
 
-namespace Api.Endpoints;
+namespace Template.API.Endpoints;
 
 public static class CourseEndPoints
 {

@@ -1,4 +1,4 @@
-﻿namespace SampleApi.Endpoints;
+﻿namespace Template.API.Endpoints;
 
 public static class RootEndpoints
 {

@@ -1,7 +1,7 @@
-﻿using Api.Data.Model;
-using System.Text.Json;
+﻿using System.Text.Json;
+using Template.API.Data.Model;
 
-namespace Api.Data;
+namespace Template.API.Data;
 
 public class CourseData
 {

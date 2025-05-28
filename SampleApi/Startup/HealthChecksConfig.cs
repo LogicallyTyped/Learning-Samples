@@ -1,8 +1,8 @@
-﻿using Api.HealthChecks;
-using HealthChecks.UI.Client;
+﻿using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Template.API.HealthChecks;
 
-namespace Api.Startup;
+namespace Template.API.Startup;
 
 public static class HealthChecksConfig
 {
