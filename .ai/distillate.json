@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0.0",
+  "repo_root": "C:\\source\\github.com\\LogicallyTyped\\Learning-Samples",
+  "distilled_from_sha": "30251b9140f8181bc9cb580fcd774ca6542d4712",
+  "verification": {
+    "verified_sha": "30251b9140f8181bc9cb580fcd774ca6542d4712",
+    "verified_at": "2026-08-16T18:38:11Z",
+    "verified_by": "claude-sonnet (TASK-5.2 supervised full run)"
+  },
+  "deterministic": {
+    "file_tree": [
+      ".ai",
+      ".editorconfig",
+      ".gitattributes",
+      ".gitignore",
+      "API",
+      "API.txt",
+      "Configuration.cs",
+      "Configurations",
+      "ConsoleUI",
+      "DataAccess",
+      "DependencyInjection",
+      "DependencyInjection.Example1",
+      "DependencyInjection1",
+      "ExceptionsLibrary",
+      "FolderStructure.txt",
+      "Learning.Projects.sln",
+      "SampleApi",
+      "TestUI",
+      "TesteUI",
+      "TipsAndTricks.txt",
+      "Unloaded",
+      "UserDB"
+    ],
+    "dependencies": [
+      {
+        "name": "Microsoft.Extensions.Hosting",
+        "version": "10.0.5",
+        "kind": "runtime"
+      },
+      {
+        "name": "Dapper",
+        "version": "2.1.66",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.Data.SqlClient",
+        "version": "6.0.2",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.Extensions.Configuration.Abstractions",
+        "version": "9.0.5",
+        "kind": "runtime"
+      },
+      {
+        "name": "System.Data.SqlClient",
+        "version": "4.9.0",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.Extensions.DependencyInjection",
+        "version": "9.0.5",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.Extensions.Hosting",
+        "version": "9.0.5",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.Extensions.DependencyInjection",
+        "version": "9.0.5",
+        "kind": "runtime"
+      },
+      {
+        "name": "AspNetCore.HealthChecks.UI.Client",
+        "version": "9.0.0",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.AspNetCore.OpenApi",
+        "version": "8.0.16",
+        "kind": "runtime"
+      },
+      {
+        "name": "Swashbuckle.AspNetCore",
+        "version": "6.6.2",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly",
+        "version": "8.0.16",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+        "version": "8.0.16",
+        "kind": "dev"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly",
+        "version": "8.0.16",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+        "version": "8.0.16",
+        "kind": "dev"
+      },
+      {
+        "name": "Microsoft.AspNetCore.OpenApi",
+        "version": "9.0.5",
+        "kind": "runtime"
+      },
+      {
+        "name": "Scalar.AspNetCore",
+        "version": "2.4.3",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly",
+        "version": "9.0.5",
+        "kind": "runtime"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+        "version": "9.0.5",
+        "kind": "dev"
+      }
+    ],
+    "build_test_run": [],
+    "entrypoints": [
+      {
+        "type": "cli",
+        "path": "Configurations/Program.cs"
+      },
+      {
+        "type": "cli",
+        "path": "ConsoleUI/Program.cs"
+      },
+      {
+        "type": "cli",
+        "path": "DataAccess/User.DataAccess.csproj"
+      },
+      {
+        "type": "cli",
+        "path": "DependencyInjection/Program.cs"
+      },
+      {
+        "type": "cli",
+        "path": "DependencyInjection.Example1/Program.cs"
+      },
+      {
+        "type": "cli",
+        "path": "DependencyInjection1/Program.cs"
+      },
+      {
+        "type": "cli",
+        "path": "ExceptionsLibrary/ExceptionsLibrary.csproj"
+      },
+      {
+        "type": "http",
+        "path": "SampleApi/Program.cs"
+      },
+      {
+        "type": "http",
+        "path": "TesteUI/Program.cs"
+      },
+      {
+        "type": "http",
+        "path": "TestUI/Program.cs"
+      },
+      {
+        "type": "http",
+        "path": "Unloaded/API/Program.cs"
+      },
+      {
+        "type": "http",
+        "path": "Unloaded/SampleUI/Program.cs"
+      }
+    ],
+    "config_keys": [
+      {
+        "name": "AllowedHosts",
+        "sensitive": false
+      },
+      {
+        "name": "ConnectionStrings:Default",
+        "sensitive": true
+      },
+      {
+        "name": "KeyOne",
+        "sensitive": true
+      },
+      {
+        "name": "KeyThree:Message",
+        "sensitive": true
+      },
+      {
+        "name": "KeyTwo",
+        "sensitive": true
+      },
+      {
+        "name": "Logging:LogLevel:Default",
+        "sensitive": false
+      },
+      {
+        "name": "Logging:LogLevel:Microsoft.AspNetCore",
+        "sensitive": false
+      },
+      {
+        "name": "environment",
+        "sensitive": false
+      },
+      {
+        "name": "greeting",
+        "sensitive": false
+      }
+    ],
+    "scheduled_tasks": [],
+    "services": [],
+    "routes": [
+      {
+        "method": "GET",
+        "path": ""
+      },
+      {
+        "method": "POST",
+        "path": ""
+      },
+      {
+        "method": "PUT",
+        "path": ""
+      },
+      {
+        "method": "GET",
+        "path": "/"
+      },
+      {
+        "method": "GET",
+        "path": "/{code}"
+      },
+      {
+        "method": "DELETE",
+        "path": "/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/{id}"
+      }
+    ],
+    "docs_index": [
+      ".ai/CONTEXT.md"
+    ],
+    "ado_org": null,
+    "employer": null,
+    "team": null
+  },
+  "interpretive": {
+    "purpose": "A repository containing various .NET projects demonstrating configuration management, dependency injection, exception handling, and API development.",
+    "consumers": [
+      "Developers looking to understand configuration patterns in .NET",
+      "Teams implementing dependency injection for better code maintainability",
+      "Users interested in exception handling best practices",
+      "API developers needing a simple API setup"
+    ],
+    "components": [
+      {
+        "name": "Configuration.cs",
+        "responsibility": "Contains basic class definitions without specific responsibilities."
+      },
+      {
+        "name": "AppSettings.cs",
+        "responsibility": "Defines configuration settings for the application, including nested settings."
+      },
+      {
+        "name": "GenericClassOptions.cs",
+        "responsibility": "Provides a template for options classes used in dependency injection."
+      },
+      {
+        "name": "Program.cs (Configurations)",
+        "responsibility": "Sets up and binds configuration sources, demonstrating various configuration methods."
+      },
+      {
+        "name": "Program.cs (ConsoleUI)",
+        "responsibility": "Demonstrates global exception handling with a console application."
+      },
+      {
+        "name": "Program.cs (DependencyInjection)",
+        "responsibility": "Illustrates different types of dependency injection: constructor, setter, and interface injection."
+      },
+      {
+        "name": "IMessageWriter.cs",
+        "responsibility": "Defines an interface for writing messages."
+      },
+      {
+        "name": "MessageWriter.cs",
+        "responsibility": "Implements the IMessageWriter interface to write messages to the console."
+      },
+      {
+        "name": "Program.cs (DependencyInjection.Example1)",
+        "responsibility": "Sets up a hosted service with dependency injection using an interface."
+      },
+      {
+        "name": "Worker.cs",
+        "responsibility": "A background service that writes messages at regular intervals."
+      },
+      {
+        "name": "Program.cs (DependencyInjection1)",
+        "responsibility": "Initializes a ServiceCollection for dependency injection setup."
+      },
+      {
+        "name": "DemoCode.cs",
+        "responsibility": "Demonstrates exception handling with nested try-catch blocks and rethrowing exceptions."
+      },
+      {
+        "name": "GlobalUsings.cs (SampleApi)",
+        "responsibility": "Contains global using directives for the SampleApi project."
+      },
+      {
+        "name": "Program.cs (SampleApi)",
+        "responsibility": "Sets up a web application with OpenAPI support and HTTPS redirection."
+      },
+      {
+        "name": "Program.cs (TesteUI)",
+        "responsibility": "Configures a Blazor WebAssembly host for client-side UI development."
+      }
+    ],
+    "data_flow_summary": "This is a grab-bag of independent, mostly-unrelated .NET learning samples in one solution, not a single application, so there is no data flow spanning the whole repo. Within SampleApi specifically: minimal-API endpoints (SampleApi/Endpoints) call DataAccess, which uses Dapper + Microsoft.Data.SqlClient to invoke stored procedures against the UserDB SQL Server database project. The other folders (Configurations, ConsoleUI, DependencyInjection*, ExceptionsLibrary, TestUI/TesteUI) are standalone demos with no cross-project calls.",
+    "integration_points": [
+      {
+        "name": "SQL Server (UserDB)",
+        "description": "SampleApi's /users endpoints read/write via DataAccess's Dapper + Microsoft.Data.SqlClient wrapper, calling stored procedures (dbo.spUser_*) defined in the UserDB SQL Server database project."
+      }
+    ],
+    "operational_notes": [
+      "Ensure that user secrets are not checked into version control.",
+      "Configuration files should be named correctly to match the environment (e.g., appsettings.Development.json).",
+      "Dependency injection setup requires careful management of service lifetimes and scopes.",
+      "ExceptionsLibrary/DemoCode.cs has a stray extra closing brace after the class and fails to compile (verified via `dotnet build`) as of the distilled commit; ConsoleUI, which references ExceptionsLibrary, will not build until that is fixed."
+    ]
+  }
+}
