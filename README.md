@@ -34,7 +34,7 @@ dotnet run --project SampleApi/Template.API.csproj
 dotnet run --project TestUI/TestUI.csproj
 ```
 
-**Known-broken build paths** (see `.ai/findings.md` for detail): `dotnet build
+**Known-broken build paths**: `dotnet build
 Learning.Projects.sln` currently fails on two of its projects —
 `ExceptionsLibrary/DemoCode.cs` has a stray extra closing brace and does not compile
 (so `ConsoleUI`, which references it, won't build either), and `UserDB/UserDB.sqlproj`
@@ -64,8 +64,7 @@ individual working projects directly rather than the whole solution.
 
 `DataAccess/User.DataAccess.csproj` and `ExceptionsLibrary/ExceptionsLibrary.csproj`
 are class libraries with no `Main` method — not entrypoints, despite being flagged as
-such by this repo's doc-distillation tooling (a known distiller bug, see
-`.ai/findings.md`).
+such by this repo's doc-distillation tooling (a known distiller bug).
 
 ## Configuration
 
@@ -106,11 +105,9 @@ HTTP endpoints (including `/health*`) only when run locally by a developer.
 
 ## Deeper docs
 
-- `docs/architecture.md` — component list, data flow, and the one real external
+- `.ai/architecture.md` — component list, data flow, and the one real external
   integration point (SQL Server via `DataAccess`/`UserDB`)
 - `.ai/CONTEXT.md` — project identity and standards-overlay declaration
-- `.ai/findings.md` — distillation-pipeline bugs and verification judgment calls
-  found while writing this documentation
 
 ---
 schema_version: 1.0.0

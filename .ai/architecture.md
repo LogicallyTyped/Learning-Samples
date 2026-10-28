@@ -102,9 +102,8 @@ queue, or API.
 
 ## Deeper docs
 
-No `docs/adr/` directory exists in this repo; there are no architecture-decision
-records to point to. `.ai/CONTEXT.md` and `.ai/findings.md` carry the rest of this
-repo's documentation.
+No `.ai/adr/` directory exists in this repo; there are no architecture-decision
+records to point to. `.ai/CONTEXT.md` carries the rest of this repo's documentation.
 
 ---
 schema_version: 1.0.0
